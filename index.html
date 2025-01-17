@@ -8,47 +8,36 @@
 <body>
     <h1>Bootstrap Tutorial</h1>
 
-    <h1>Margin and Padding</h1>
-     <div class="bg-primary m-1 p-1">Small margin and padding</div>
-     <div class="bg-primary m-3 p-3">Medium margin and padding</div>
-     <div class="bg-primary m-5 p-5">Large margin and padding</div>
-     <div class="bg-primary my-3 px-5">Medium margin in y-direction, large padding in x-direction</div>
+    <div class="container my-5">
+        <h2>A container</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore molestias sunt nesciunt temporibus magnam. Molestiae obcaecati laudantium ipsum quaerat quo ducimus eligendi, aperiam nesciunt, aliquid, placeat maxime fugiat quia eveniet?</p>
+    </div>
 
-     <!-- Margin-top, margin-bottom, margin-start, margin-end, padding-start, padding-top, padding-end, padding-bottom -->
-     <div class="bg-primary mt-3 mb-4 ms-5 me-1 ps-5 pt-4 pe-2 pb-1">Margin and padding for each direction</div>
+    <br/>
+    <br/>
 
-     <br/>
-     <br/>
+    <!-- Container-fluid takes up 100% of the width -->
+    <div class="container-fluid">
+        <h2>A fluid container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum error voluptatum libero fuga obcaecati tempore aspernatur rem temporibus, dicta sunt quibusdam corrupti impedit sed. Modi autem animi recusandae nulla doloremque.</p>
+    </div>
 
-     <h1>Borders</h1>
-     <div class="m-3 p-3 border">Default border</div>
-     <div class="m-3 p-3 border-top border-end">Individual border</div>
-     <div class="m-3 p-3 border-start border-success">Success border color at the start</div>
-     <div class="m-3 p-3 border-start border-danger border-5">Thick danger border at the start</div>
-     <div class="m-3 p-3 rounded border border-5">Rounded border</div>
-     <div class="m-3 p-3 rounded-pill border border-5">Rounded pill corners</div>
-     <div class="m-3 p-3 rounded-pill bg-primary">Rounded pill corners with bg color</div>
+    <br/>
+    <br/>
 
-     <br/>    
-     <br/>
-     
-     <h1>Box Shadow</h1>
-     <div class="m-3 p-3 shadow-sm">Element with small box shadow</div>
+    <!-- When the screen resolution is large enough, it will behave the same way as a container -->
+    <div class="container-lg my-5">
+        <h2>100% width until lg screens, then container</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis voluptates perferendis illum dolorum nulla ipsa illo eaque sit ex et? Officia in dolorem tempore provident quam illum laborum labore eveniet!</p>
+    </div>
 
-     <!-- Default box shadow is medium -->
-     <div class="m-3 p-3 shadow">Element with medium box shadow</div>
-     <div class="m-3 p-3 shadow-lg">Element with large box shadow</div>
+    <br/>
+    <br/>
 
-     <br/>
-     <br/>
-
-     <h1>Font Weight</h1>
-     <p>Normal text</p>
-     <p class="fw-bold">Bold text</p>
-     <p class="fw-bolder">Bolder text</p>
-     <p class="fw-light">Light text</p>
-     <p class="fst-italic">Italic text</p>
-     <p class="fst-italic fw-light">Italic light text</p>
+    <div class="container-xl my-5">
+        <h2>100% width until xl screens, then container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum similique odit voluptatibus labore sit quidem deleniti voluptas nulla eius cumque nam tenetur adipisci neque quia, at asperiores, quod aspernatur corrupti.</p>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
