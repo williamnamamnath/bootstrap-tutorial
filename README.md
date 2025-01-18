@@ -15,3 +15,4 @@ This repository tracks my learning progress using Bootstrap.
 - Margin and padding, borders, box shadow and font-weight
 - Containers
 - Grid layout
+- Navbar
